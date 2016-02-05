@@ -1,0 +1,25 @@
+head
+    title My GULP workflow
+    link(rel="stylesheet" href="css/main.css")
+
+In src/jade/partials/footer.jade :
+
+#footer.row
+    .col-sm-12
+        p Copyright &copy; CVO De verdieping
+
+script(src="js/app.js")
+
+In src/jade/index.jade :
+
+extends layouts/layout.jade
+
+block content
+    .row
+        .col-sm-12
+            h2 This is the page content!
+            p.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Distinctio accusantium, repellat. Facere molestiae ad at, magnam labore voluptates,
+                fugit laboriosam blanditiis sequi optio consectetur saepe quae enim quaerat, omnis nisi.
+            h3 This is way cool!

@@ -1,0 +1,11 @@
+@import 'settings';
+@import 'bootstrap';
+
+body {
+  background: $pageBackground;
+  margin-top: $pageTopMargin;
+}
+
+h1 {
+  color: red;
+}
