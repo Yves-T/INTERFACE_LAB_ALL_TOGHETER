@@ -1,4 +1,4 @@
-#All togheter now
+#All together now
 
 
 ##Use
